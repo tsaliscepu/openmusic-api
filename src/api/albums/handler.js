@@ -1,6 +1,10 @@
+const autoBind = require("auto-bind");
+
 class AlbumsHandler {
     constructor(service) {
         this._service = service;
+
+        autoBind(this);
     }
 
     postAlbumHandler(request, h) {
