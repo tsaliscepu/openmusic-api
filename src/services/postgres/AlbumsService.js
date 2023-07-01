@@ -52,7 +52,7 @@ class AlbumsService {
             id: result.rows[0].id,
             name: result.rows[0].name,
             year: result.rows[0].year,
-            songs: resultSong.rows,s
+            songs: resultSong.rows,
         };
     }
 
